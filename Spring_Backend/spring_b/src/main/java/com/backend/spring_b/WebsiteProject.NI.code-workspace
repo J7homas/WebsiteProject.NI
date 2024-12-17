@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "../../../../../../../.."
+    },
+    {
+      "path": "../../../../../../../../React_Frontend"
+    },
+    {
+      "path": "../../../../../../.."
+    }
+  ],
+  "settings": {
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
+  }
+}

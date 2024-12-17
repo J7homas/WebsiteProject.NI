@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-SpringBApplication<spring_b>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.backend.spring_b.SpringBApplication",
+      "projectName": "spring_b",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

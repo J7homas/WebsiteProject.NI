@@ -1,0 +1,9 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "editor.formatOnSave": true,
+    "spring-boot.ls.java.home": "/path/to/java",
+    "files.exclude": {
+      "target/": true
+    }
+  }
+  
