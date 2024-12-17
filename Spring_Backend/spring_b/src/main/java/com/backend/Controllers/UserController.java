@@ -67,12 +67,16 @@ public class UserController {
     }
 
     @DeleteMapping("/users/{id}")
-    public void deleteUserById(@PathVariable Integer id) {
+    public String deleteUserById(@PathVariable Integer id) {
         userService.deleteUserById(id);
+
+        return "User has been deleted.";
     }
 
     @DeleteMapping("/users")
-    public void deleteAllUsers() {
+    public String deleteAllUsers() {
         userService.deleteAllUsers();
+
+        return "All users have been deleted.";
     }
 }
