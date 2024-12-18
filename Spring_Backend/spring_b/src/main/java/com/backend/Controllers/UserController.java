@@ -46,7 +46,7 @@ public class UserController {
     @PostMapping("/users")
     public ResponseEntity<UserModel> postCreateUser(@RequestBody UserModel userModel) {
         innerUserRepository.save(userModel);
-        return new ResponseEntity<UserModel>(HttpStatus.OK);
+        return new ResponseEntity<UserModel>(HttpStatus.CREATED);
     }
 
     @PutMapping("/users/id/{id}")
